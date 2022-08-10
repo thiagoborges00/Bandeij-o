@@ -8,6 +8,12 @@ h3 {
     color: #030915;
 }
 
+h1,
+h2,
+#name {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 200;
+}
 body {
     background-color: #E98F3B;
 }
@@ -54,8 +60,11 @@ ul li {
 
 }
 
-li h3 {
+li h3,
+footer {
     margin-bottom: 4px;
+    font-family: 'Permanent Marker', cursive;
+        font-family: 'Roboto', sans-serif;
 }
 
 strong,
