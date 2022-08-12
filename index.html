@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicação que mostra o cardápio da empresa bandeijão">
     <title>Bandeijão</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,105 +16,119 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Bandeijão<span id='name'>Grill</span></h1>
+    <header class="cabeçalho">
+        <div class="conteudo-cabeçalho">
+            <h1>Bandeijão<span id='titulo-cabeçalho'>Grill</span></h1>
             <p>aberto todos os dias das 11hrs as 15hrs</p>
         </div>
+        <nav class="navegacao">
+            <a>um</a>
+            <a href="#chat">dois</a>
+            <a href="">tres</a>
+            <a href="">quatro</a>
+        </nav>
     </header>
-    <section class="cardapio">
-        <h2>Cardápio Semanal</h2>
-        <ul>
-            <li>
-                <div class="details">
-                    <h3>SEGUNDA FEIRA</h3>
-                    <p>Guacamole</p>
-                </div>
-                <div class="value">
-                    <strong>R$ 22,99</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>TERÇA FEIRA</h3>
-                    <p> Tacos</p>
-                </div>
-                <div class="value">
-                    <strong>R$ 18,99</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>QUARTA FEIRA</h3>
-                    <p>Burritos</p>
-                </div>
-                <div class="value">
-                    <strong>R$ 19,99</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>QUINTA FEIRA</h3>
-                    <p>Nachos</p>
-                </div>
-                <div class="value">
-                    <strong>R$ 19,99</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>SEXTA FEIRA</h3>
-                    <p>Tortilha Mexicana</p>
-                </div>
-                <div class="value">
-                    <strong>R$ 22,99</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>SÁBADO</h3>
-                    <p>Chilli</p>
-                </div>
-                <div class="value">
-                    <strong>R$ 18,99</strong>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section class="bebidas">
-        <h2>Bebidas</h2>
-        <ul>
-            <li>
-                <div>
-                    <h3>VINHO SÃO BARLIEU</h3>
-                </div>
-                <div>
-                    <strong>R$ 151.99</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>ÁGUA DE CÔCO 500ml</h3>
-                </div>
-                <div>
-                    <strong>R$ 7,00</strong>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>
-                        SUCOS DIVERSOS 500ml
-                    </h3>
-                </div>
-                <div>
-                    <strong>R$ 12,00</strong>
-                </div>
-            </li>
-        </ul>
-    </section>
+    <main class="corpo">
+        <section class="corpo-cardapio">
+            <h2 class="titulo-corpo-cardapio">Cardápio Semanal</h2>
+            <ul class="lista-corpo-cardapio">
+                <li>
+                    <div class="detalhes-corpo">
+                        <h3>SEGUNDA FEIRA</h3>
+                        <p>Guacamole</p>
+                    </div>
+                    <div class="value">
+                        <strong>R$ 22,99</strong>
+                    </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>TERÇA FEIRA</h3>
+                            <p> Tacos</p>
+                        </div>
+                        <div class="value">
+                            <strong>R$ 18,99</strong>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>QUARTA FEIRA</h3>
+                            <p>Burritos</p>
+                        </div>
+                        <div class="value">
+                            <strong>R$ 19,99</strong>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>QUINTA FEIRA</h3>
+                            <p>Nachos</p>
+                        </div>
+                        <div class="value">
+                            <strong>R$ 19,99</strong>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>SEXTA FEIRA</h3>
+                            <p>Tortilha Mexicana</p>
+                        </div>
+                        <div class="value">
+                            <strong>R$ 22,99</strong>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>SÁBADO</h3>
+                            <p>Chilli</p>
+                        </div>
+                        <div class="value">
+                            <strong>R$ 18,99</strong>
+                        </div>
+                    </li>
+                    </ul>
+                    </section>
+        <section class="corpo-bebidas">
+            <h2 class="titulo-corpo-bebidas">Bebidas</h2>
+            <ul class="lista-corpo-bebidas">
+                <li>
+                    <div>
+                        <h3>VINHO SÃO BARLIEU</h3>
+                    </div>
+                    <div>
+                        <strong>R$ 151.99</strong>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>ÁGUA DE CÔCO 500ml</h3>
+                    </div>
+                    <div>
+                        <strong>R$ 7,00</strong>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>
+                            SUCOS DIVERSOS 500ml
+                        </h3>
+                    </div>
+                    <div>
+                        <strong>R$ 12,00</strong>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-    <footer>
+    </main>
+    
+    <footer class="rodape">
+        <div class="fyt">
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger id='chat' intent="WELCOME" chat-title="School_Guardian"
+                agent-id="223aca93-42ce-4ad2-a712-e4a0dbf289e0" language-code="pt-br"></df-messenger>
         <h5>TERESINA - PI</h5>
+        </div>
     </footer>
 
 </body>
