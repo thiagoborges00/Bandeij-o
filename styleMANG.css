@@ -29,3 +29,9 @@ h1 {
     footer a+a {
         margin-left: 28px;
 }
+#line {
+    height: 0px;
+    width: 568px;
+    margin: 0 auto 8px;
+    border: 1px solid #eceff2;
+}
